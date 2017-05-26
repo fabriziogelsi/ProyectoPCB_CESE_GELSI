@@ -1,0 +1,11 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 14/05/2017
+* Autores: Fabrizio Gelsi
+* Archivos: 
+* Descripción: Se parte de los Modelos de Ponchos en: 
+               http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:ponchos_modelos
+               Se genera desde el template de Poncho Chico, la base para generar el poncho RF para EDU-CIAA
+
+

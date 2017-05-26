@@ -1,0 +1,13 @@
+PONCHO RF
+=============
+
+Este circuito implementa un módulo inalámbrico de RF. Podrá usarse en aplicaciones con la EDU-CIAA. Dicho módulo puede ser utilizado en monitoreo de vehículos, control remoto, sistema de seguridad para el hogar, lectura inalámbrica de medidores, sistema de adquisición de datos industriales, etiqueta inalámbrica, adquisición de señales biológicas, monitoreo hidrológico y meteorológico, etc.
+Posee una interfaz XBee integrada, por lo que proporciona a los fabricantes más soluciones inalámbricas, como 315M a Bluetooth, 315M a WiFi , 315M a Xbee.
+
+URL: (URL en la wiki de la CIAA)
+FUNCIÓN: Para qué sirve el Poncho.
+AUTORES/INSTITUCIONES: 
+
+
+
+<<Detalle y explicación de directorios o archivos adicionales que se incorporen.>>
