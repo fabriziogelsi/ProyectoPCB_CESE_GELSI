@@ -1,4 +1,4 @@
-update=jue 25 may 2017 20:18:25 ART
+update=sáb 27 may 2017 10:10:39 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,3 +37,4 @@ LibName4=libs/kicad-lib-master/components/_wireless
 LibName5=libs/LOGIC-SN74LVC1G125DCKR_SC70-5_/LOGIC-SN74LVC1G125DCKR_SC70-5_
 LibName6=libs/kicad-library-master/library/switches
 LibName7=libs/libPonchos/Poncho_Esqueleto
+LibName8=libs/libModelos/Misc_Poncho_Grande

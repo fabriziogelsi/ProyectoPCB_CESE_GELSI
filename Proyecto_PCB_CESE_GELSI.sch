@@ -1,124 +1,12 @@
 EESchema Schematic File Version 2
-LIBS:sc2272l4
 LIBS:h5v3g
-LIBS:_wireless
-LIBS:_transceiver
-LIBS:_stm32
-LIBS:_sensors
-LIBS:_power
-LIBS:power
-LIBS:phoenix
-LIBS:National
-LIBS:_motor_drivers
-LIBS:Mec
-LIBS:logo
-LIBS:_linear-regulators
-LIBS:IRF
-LIBS:_ic
-LIBS:_div
-LIBS:_discrete
-LIBS:cvra
-LIBS:_connectors
-LIBS:Comp2014
-LIBS:_charge-pump-regulators
-LIBS:_audio
-LIBS:_antenna
-LIBS:Zilog
-LIBS:zetex
-LIBS:xilinx
-LIBS:Xicor
-LIBS:Worldsemi
-LIBS:wiznet
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:triac_thyristor
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm32
-LIBS:stm8
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:RFSolutions
-LIBS:rfcom
-LIBS:relays
+LIBS:sc2272l4
 LIBS:regul
-LIBS:references
-LIBS:pspice
-LIBS:Power_Management
-LIBS:powerint
-LIBS:philips
-LIBS:Oscillators
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nxp
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motors
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:modules
-LIBS:microcontrollers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:memory
-LIBS:mechanical
-LIBS:maxim
-LIBS:linear
-LIBS:LEM
-LIBS:leds
-LIBS:Lattice
-LIBS:ir
-LIBS:intersil
-LIBS:interface
-LIBS:intel
-LIBS:infineon
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:ESD_Protection
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:brooktre
-LIBS:bosch
-LIBS:bbd
-LIBS:battery_management
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:Altera
-LIBS:allegro
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:74xx
-LIBS:74xgxx
-LIBS:Misc_Poncho_Grande
+LIBS:_wireless
 LIBS:LOGIC-SN74LVC1G125DCKR_SC70-5_
+LIBS:switches
 LIBS:Poncho_Esqueleto
+LIBS:Misc_Poncho_Grande
 LIBS:Proyecto_PCB_CESE_GELSI-cache
 EELAYER 25 0
 EELAYER END
@@ -162,7 +50,7 @@ U 1 1 5920A181
 P 5250 6550
 F 0 "IC2" H 5350 6300 50  0000 C CNN
 F 1 "ASM1117-33" H 5250 6800 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 5250 6200 50  0001 C CNN
+F 2 "projectHuellas:SOT-223" H 5250 6200 50  0001 C CNN
 F 3 "" H 5350 6300 50  0001 C CNN
 	1    5250 6550
 	1    0    0    -1  
@@ -173,7 +61,7 @@ U 1 1 5920A1DC
 P 3950 7100
 F 0 "C1" V 4050 7250 50  0000 C CNN
 F 1 "22uF" V 4050 6950 50  0000 C CNN
-F 2 "" H 3950 7100 50  0001 C CNN
+F 2 "projectHuellas:C_0603_HandSoldering" H 3950 7100 50  0001 C CNN
 F 3 "" H 3950 7100 50  0001 C CNN
 	1    3950 7100
 	1    0    0    -1  
@@ -183,8 +71,8 @@ L C C2
 U 1 1 5920A243
 P 4550 7100
 F 0 "C2" V 4650 7250 50  0000 C CNN
-F 1 "104pF" V 4650 6950 50  0000 C CNN
-F 2 "" H 4550 7100 50  0001 C CNN
+F 1 "100nF" V 4650 6950 50  0000 C CNN
+F 2 "projectHuellas:C_0603_HandSoldering" H 4550 7100 50  0001 C CNN
 F 3 "" H 4550 7100 50  0001 C CNN
 	1    4550 7100
 	1    0    0    -1  
@@ -194,8 +82,8 @@ L C C3
 U 1 1 5920A2D5
 P 5800 7100
 F 0 "C3" V 5900 7250 50  0000 C CNN
-F 1 "104pF" V 5900 6950 50  0000 C CNN
-F 2 "" H 5800 7100 50  0001 C CNN
+F 1 "100nF" V 5900 6950 50  0000 C CNN
+F 2 "projectHuellas:C_0603_HandSoldering" H 5800 7100 50  0001 C CNN
 F 3 "" H 5800 7100 50  0001 C CNN
 	1    5800 7100
 	1    0    0    -1  
@@ -205,8 +93,8 @@ L C C4
 U 1 1 5920A33B
 P 6350 7100
 F 0 "C4" V 6450 7250 50  0000 C CNN
-F 1 "104pF" V 6450 6950 50  0000 C CNN
-F 2 "" H 6350 7100 50  0001 C CNN
+F 1 "100nF" V 6450 6950 50  0000 C CNN
+F 2 "projectHuellas:C_0603_HandSoldering" H 6350 7100 50  0001 C CNN
 F 3 "" H 6350 7100 50  0001 C CNN
 	1    6350 7100
 	1    0    0    -1  
@@ -283,7 +171,7 @@ U 1 1 5920AF8C
 P 7350 5000
 F 0 "IC4" H 7350 5400 60  0000 C CNN
 F 1 "H5V3G" H 7350 4600 60  0000 C CNN
-F 2 "" H 7350 5000 60  0001 C CNN
+F 2 "projectHuellas:H5V3G" H 7350 5000 60  0001 C CNN
 F 3 "" H 7350 5000 60  0001 C CNN
 	1    7350 5000
 	1    0    0    -1  
@@ -294,7 +182,7 @@ U 1 1 5920B02F
 P 6800 4350
 F 0 "ANT1" H 6725 4425 50  0000 R CNN
 F 1 "Antenna" H 6725 4350 50  0000 R CNN
-F 2 "" H 6800 4350 50  0001 C CNN
+F 2 "projectHuellas:antena" H 6800 4350 50  0001 C CNN
 F 3 "" H 6800 4350 50  0001 C CNN
 	1    6800 4350
 	1    0    0    -1  
@@ -304,8 +192,8 @@ L C C6
 U 1 1 5920B0A6
 P 5950 4450
 F 0 "C6" V 6050 4600 50  0000 C CNN
-F 1 "104pF" V 6050 4300 50  0000 C CNN
-F 2 "" H 5950 4450 50  0001 C CNN
+F 1 "100nF" V 6050 4300 50  0000 C CNN
+F 2 "projectHuellas:C_0603_HandSoldering" H 5950 4450 50  0001 C CNN
 F 3 "" H 5950 4450 50  0001 C CNN
 	1    5950 4450
 	1    0    0    -1  
@@ -360,7 +248,7 @@ U 1 1 5920B927
 P 9650 2750
 F 0 "Xbee1" H 9050 2000 60  0000 C CNN
 F 1 "XBee_Header" H 9650 3500 60  0000 C CNN
-F 2 "" H 9400 2750 60  0000 C CNN
+F 2 "projectHuellas:XBEE-HEADER" H 9400 2750 60  0001 C CNN
 F 3 "" H 9400 2750 60  0000 C CNN
 	1    9650 2750
 	-1   0    0    1   
@@ -382,7 +270,7 @@ U 1 1 5920BC8F
 P 7200 1100
 F 0 "IC3" H 7000 1400 50  0000 L CNN
 F 1 "SN74LVC1G125DCKR" H 7250 1400 50  0000 L CNN
-F 2 "SC-70-5" H 7200 1100 50  0001 L CNN
+F 2 "projectHuellas:SC-70-5" H 7200 1100 50  0001 L CNN
 F 3 "Texas Instruments" H 7200 1100 50  0001 L CNN
 F 4 "0.14 USD" H 7200 1100 50  0001 L CNN "Price"
 F 5 "Good" H 7200 1100 50  0001 L CNN "Availability"
@@ -452,8 +340,8 @@ L C C5
 U 1 1 5920BF30
 P 8200 1300
 F 0 "C5" V 8300 1450 50  0000 C CNN
-F 1 "104pF" V 8300 1150 50  0000 C CNN
-F 2 "" H 8200 1300 50  0001 C CNN
+F 1 "100nF" V 8300 1150 50  0000 C CNN
+F 2 "projectHuellas:C_0603_HandSoldering" H 8200 1300 50  0001 C CNN
 F 3 "" H 8200 1300 50  0001 C CNN
 	1    8200 1300
 	1    0    0    -1  
@@ -464,7 +352,7 @@ U 1 1 5920D87B
 P 7950 2250
 F 0 "R4" V 8030 2250 50  0000 C CNN
 F 1 "22R" V 7950 2250 50  0000 C CNN
-F 2 "" H 7950 2250 50  0001 C CNN
+F 2 "projectHuellas:R_1206_HandSoldering" H 7950 2250 50  0001 C CNN
 F 3 "" H 7950 2250 50  0001 C CNN
 	1    7950 2250
 	0    1    1    0   
@@ -475,7 +363,7 @@ U 1 1 5920D9FC
 P 7000 2350
 F 0 "S1" H 7000 2520 50  0000 C CNN
 F 1 "SW SPDT" H 7000 2150 50  0000 C CNN
-F 2 "" H 7000 2350 50  0001 C CNN
+F 2 "projectHuellas:SW_SPDT" H 7000 2350 50  0001 C CNN
 F 3 "" H 7000 2350 50  0001 C CNN
 	1    7000 2350
 	1    0    0    -1  
@@ -486,7 +374,7 @@ U 1 1 5920DCEE
 P 8350 2750
 F 0 "R2" V 8430 2750 50  0000 C CNN
 F 1 "1k" V 8350 2750 50  0000 C CNN
-F 2 "" H 8350 2750 50  0001 C CNN
+F 2 "projectHuellas:R_1206_HandSoldering" H 8350 2750 50  0001 C CNN
 F 3 "" H 8350 2750 50  0001 C CNN
 	1    8350 2750
 	0    1    1    0   
@@ -497,7 +385,7 @@ U 1 1 5920DE9D
 P 8050 3000
 F 0 "D2" H 8050 3100 50  0000 C CNN
 F 1 "LED_ALT" H 8050 2900 50  0000 C CNN
-F 2 "" H 8050 3000 50  0001 C CNN
+F 2 "projectHuellas:D_0805" H 8050 3000 50  0001 C CNN
 F 3 "" H 8050 3000 50  0001 C CNN
 	1    8050 3000
 	0    -1   -1   0   
@@ -508,7 +396,7 @@ U 1 1 5920E4F9
 P 4050 4950
 F 0 "IC1" H 4050 4350 60  0000 C CNN
 F 1 "SC2272L4" H 4050 5500 60  0000 C CNN
-F 2 "" H 4050 4950 60  0001 C CNN
+F 2 "projectHuellas:SSOP-20_5.3x7.2mm_Pitch0.65mm" H 4050 4950 60  0001 C CNN
 F 3 "" H 4050 4950 60  0001 C CNN
 	1    4050 4950
 	1    0    0    -1  
@@ -519,7 +407,7 @@ U 1 1 5920E83E
 P 6400 1100
 F 0 "R3" V 6480 1100 50  0000 C CNN
 F 1 "1k" V 6400 1100 50  0000 C CNN
-F 2 "" H 6400 1100 50  0001 C CNN
+F 2 "projectHuellas:R_1206_HandSoldering" H 6400 1100 50  0001 C CNN
 F 3 "" H 6400 1100 50  0001 C CNN
 	1    6400 1100
 	0    1    1    0   
@@ -530,7 +418,7 @@ U 1 1 5920F0CE
 P 5100 4700
 F 0 "R5" V 5180 4700 50  0000 C CNN
 F 1 "620k" V 5100 4700 50  0000 C CNN
-F 2 "" H 5100 4700 50  0001 C CNN
+F 2 "projectHuellas:R_1206_HandSoldering" H 5100 4700 50  0001 C CNN
 F 3 "" H 5100 4700 50  0001 C CNN
 	1    5100 4700
 	0    1    -1   0   
@@ -547,12 +435,12 @@ F 3 "" H 3400 5350 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_Poncho2P_2x_20x2 XA2
+L Conn_Poncho2P_2x_20x2 XA1
 U 2 1 59212DFA
 P 1350 3650
-F 0 "XA2" H 1650 4050 60  0000 C CNN
+F 0 "XA1" H 1650 4050 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 1700 1950 60  0000 C CNN
-F 2 "" H 1350 3650 60  0000 C CNN
+F 2 "projectHuellas:Conn_Poncho_Completo" H 1350 3650 60  0001 C CNN
 F 3 "" H 1350 3650 60  0000 C CNN
 	2    1350 3650
 	1    0    0    -1  
@@ -567,7 +455,7 @@ U 1 1 592515B1
 P 1350 1100
 F 0 "XA1" H 1650 1500 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 1700 -600 60  0000 C CNN
-F 2 "" H 1350 1100 60  0000 C CNN
+F 2 "projectHuellas:Conn_Poncho_Completo" H 1350 1100 60  0001 C CNN
 F 3 "" H 1350 1100 60  0000 C CNN
 	1    1350 1100
 	1    0    0    -1  
@@ -854,10 +742,91 @@ NoConn ~ 1100 3750
 NoConn ~ 1100 3650
 NoConn ~ 1100 3550
 NoConn ~ 1100 3450
-NoConn ~ 1100 3350
 Wire Wire Line
-	5800 6550 5800 6850
+	5800 6300 5800 6850
 Wire Wire Line
 	5550 6550 6350 6550
 NoConn ~ 7200 2450
+$Comp
+L +3.3V #PWR018
+U 1 1 59299281
+P 5800 6300
+F 0 "#PWR018" H 5800 6260 30  0001 C CNN
+F 1 "+3.3V" H 5800 6410 30  0000 C CNN
+F 2 "" H 5800 6300 60  0000 C CNN
+F 3 "" H 5800 6300 60  0000 C CNN
+	1    5800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 59299E08
+P 3950 1550
+F 0 "#FLG019" H 3950 1625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 1700 50  0000 C CNN
+F 2 "" H 3950 1550 50  0001 C CNN
+F 3 "" H 3950 1550 50  0001 C CNN
+	1    3950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 59299EB4
+P 4350 1950
+F 0 "#PWR020" H 4350 1950 30  0001 C CNN
+F 1 "GND" H 4350 1880 30  0000 C CNN
+F 2 "" H 4350 1950 60  0001 C CNN
+F 3 "" H 4350 1950 60  0001 C CNN
+	1    4350 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1950 4350 1850
+Wire Wire Line
+	4350 1850 3950 1850
+Wire Wire Line
+	3950 1850 3950 1550
+Wire Wire Line
+	3950 900  3950 1150
+Wire Wire Line
+	3950 1150 4350 1150
+Wire Wire Line
+	4350 1150 4350 900 
+$Comp
+L +5V #PWR021
+U 1 1 59297E0B
+P 4350 900
+F 0 "#PWR021" H 4350 990 20  0001 C CNN
+F 1 "+5V" H 4350 990 30  0000 C CNN
+F 2 "" H 4350 900 60  0000 C CNN
+F 3 "" H 4350 900 60  0000 C CNN
+	1    4350 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG022
+U 1 1 59297BC7
+P 3950 900
+F 0 "#FLG022" H 3950 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 1050 50  0000 C CNN
+F 2 "" H 3950 900 50  0001 C CNN
+F 3 "" H 3950 900 50  0001 C CNN
+	1    3950 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR023
+U 1 1 592FECE1
+P 950 3250
+F 0 "#PWR023" H 950 3210 30  0001 C CNN
+F 1 "+3.3V" H 950 3360 30  0000 C CNN
+F 2 "" H 950 3250 60  0000 C CNN
+F 3 "" H 950 3250 60  0000 C CNN
+	1    950  3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3250 950  3350
+Wire Wire Line
+	950  3350 1100 3350
 $EndSCHEMATC
