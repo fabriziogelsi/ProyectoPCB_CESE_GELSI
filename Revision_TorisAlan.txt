@@ -1,0 +1,7 @@
+-Valores y referencias de componentes no estan orientados de la misma forma. (Ej, D2 son verticales y R3 horizontales).
+-Campo "Hoja de datos" de IC3 es erroneo.
+-Valor de R4 no es un valor de resistencia (Debería ir solo 22 si es que son 22ohms).
+
+Mejoras:
+-Conexiones entre IC1 y XA1B se podrían hacer con etiquetas locales para ganar prolijidad
+-Se podría agregar texto explicativo de cada parte del poncho
