@@ -19,8 +19,8 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho (Fabrizio Gelsi). Ver directorio \"doc\""
-Comment4 "CÓDIGO PONCHO:"
+Comment3 "Revisor: Alan Toris. Ver directorio \"doc\""
+Comment4 "Autor del poncho (Fabrizio Gelsi). "
 $EndDescr
 $Comp
 L OSHWA #G2
@@ -198,6 +198,7 @@ F 0 "IC4" H 7350 5400 60  0000 C CNN
 F 1 "H5V3G" H 7350 4600 60  0000 C CNN
 F 2 "projectHuellas:H5V3G" H 7350 5000 60  0001 C CNN
 F 3 "" H 7350 5000 60  0001 C CNN
+F 4 "http://162.250.126.230/item/Free-Shipping-1pc-ASK-superheterodyne-315M-miniature-receiver-5V-low-power-wireless-module-H5V3G-PCB-bare/1419753175.html" H 7350 5000 60  0001 C CNN "Manf"
 	1    7350 5000
 	1    0    0    -1  
 $EndComp
@@ -365,12 +366,12 @@ $EndComp
 $Comp
 L +3.3V #PWR016
 U 1 1 5920BEA5
-P 10000 850
-F 0 "#PWR016" H 10000 810 30  0001 C CNN
-F 1 "+3.3V" H 10000 960 30  0000 C CNN
-F 2 "" H 10000 850 60  0001 C CNN
-F 3 "" H 10000 850 60  0001 C CNN
-	1    10000 850 
+P 8200 850
+F 0 "#PWR016" H 8200 810 30  0001 C CNN
+F 1 "+3.3V" H 8200 960 30  0000 C CNN
+F 2 "" H 8200 850 60  0001 C CNN
+F 3 "" H 8200 850 60  0001 C CNN
+	1    8200 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -461,6 +462,8 @@ F 0 "IC1" H 4050 4350 60  0000 C CNN
 F 1 "SC2272L4" H 4050 5500 60  0000 C CNN
 F 2 "projectHuellas:SSOP-20_5.3x7.2mm_Pitch0.65mm" H 4050 4950 60  0001 C CNN
 F 3 "" H 4050 4950 60  0001 C CNN
+F 4 "http://www.ebay.es/itm/2-x-SC2272-L4-Remote-Control-Decoder-SC2272-PT2272-L4-/300530137263" H 4050 4950 60  0001 C CNN "Manf"
+F 5 "1.50" H 4050 4950 60  0001 C CNN "Price"
 	1    4050 4950
 	1    0    0    -1  
 $EndComp
@@ -518,10 +521,6 @@ F 3 "" H 1350 3650 60  0000 C CNN
 	2    1350 3650
 	1    0    0    -1  
 $EndComp
-Text Label 6550 2350 0    60   ~ 0
-RX
-Text Label 5900 1100 0    60   ~ 0
-TX
 $Comp
 L Conn_Poncho2P_2x_20x2 XA1
 U 1 1 592515B1
@@ -533,10 +532,6 @@ F 3 "" H 1350 1100 60  0000 C CNN
 	1    1350 1100
 	1    0    0    -1  
 $EndComp
-Text Label 850  2000 0    60   ~ 0
-TX
-Text Label 850  1900 0    60   ~ 0
-RX
 NoConn ~ 3600 5450
 NoConn ~ 4500 5450
 NoConn ~ 1100 5150
@@ -581,18 +576,6 @@ Wire Wire Line
 Wire Wire Line
 	10600 2150 10600 1850
 Wire Wire Line
-	10500 3350 10950 3350
-Wire Wire Line
-	10950 3350 10950 1000
-Wire Wire Line
-	10950 1000 7550 1000
-Wire Wire Line
-	8200 1050 8200 1000
-Connection ~ 8200 1000
-Wire Wire Line
-	10000 850  10000 1000
-Connection ~ 10000 1000
-Wire Wire Line
 	8200 1550 8200 1700
 Wire Wire Line
 	8800 2150 7800 2150
@@ -634,10 +617,6 @@ Wire Wire Line
 	6900 4950 6300 4950
 Wire Wire Line
 	6300 4950 6300 4100
-Wire Wire Line
-	6300 4100 4550 4100
-Wire Wire Line
-	4550 4100 4550 4500
 Wire Wire Line
 	4550 4500 4500 4500
 Wire Wire Line
@@ -701,11 +680,11 @@ Wire Wire Line
 Wire Wire Line
 	5100 5050 4500 5050
 Wire Wire Line
-	6550 2350 6800 2350
+	6300 2350 6800 2350
 Wire Wire Line
-	5900 1100 6150 1100
+	5500 1100 6150 1100
 Wire Wire Line
-	850  1900 1100 1900
+	750  1900 1100 1900
 Wire Wire Line
 	850  2000 1100 2000
 Wire Wire Line
@@ -746,13 +725,9 @@ NoConn ~ 8800 3150
 NoConn ~ 8800 3250
 NoConn ~ 8800 3350
 Wire Wire Line
-	4500 4600 4700 4600
-Text Label 4700 4600 0    60   ~ 0
-VT
+	4500 4600 4900 4600
 Wire Wire Line
 	1100 4450 800  4450
-Text Label 800  4450 0    60   ~ 0
-VT
 NoConn ~ 1100 2700
 NoConn ~ 1100 2600
 NoConn ~ 1100 2500
@@ -791,7 +766,6 @@ NoConn ~ 1100 900
 NoConn ~ 1100 800 
 NoConn ~ 2300 900 
 NoConn ~ 2300 800 
-NoConn ~ 2300 3350
 NoConn ~ 2300 3450
 NoConn ~ 2300 3550
 NoConn ~ 2300 3650
@@ -860,46 +834,72 @@ Wire Wire Line
 Wire Wire Line
 	3950 1850 3950 1550
 Wire Wire Line
-	3950 900  3950 1150
+	850  2000 850  2900
 Wire Wire Line
-	3950 1150 4350 1150
+	850  2900 5500 2900
 Wire Wire Line
-	4350 1150 4350 900 
+	5500 2900 5500 1100
+Wire Wire Line
+	750  1900 750  3000
+Wire Wire Line
+	750  3000 6300 3000
+Wire Wire Line
+	6300 3000 6300 2350
+Wire Wire Line
+	6300 4100 5950 4100
 $Comp
 L +5V #PWR021
-U 1 1 59297E0B
-P 4350 900
-F 0 "#PWR021" H 4350 990 20  0001 C CNN
-F 1 "+5V" H 4350 990 30  0000 C CNN
-F 2 "" H 4350 900 60  0000 C CNN
-F 3 "" H 4350 900 60  0000 C CNN
-	1    4350 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG022
-U 1 1 59297BC7
-P 3950 900
-F 0 "#FLG022" H 3950 975 50  0001 C CNN
-F 1 "PWR_FLAG" H 3950 1050 50  0000 C CNN
-F 2 "" H 3950 900 50  0001 C CNN
-F 3 "" H 3950 900 50  0001 C CNN
-	1    3950 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR023
-U 1 1 592FECE1
-P 950 3250
-F 0 "#PWR023" H 950 3210 30  0001 C CNN
-F 1 "+3.3V" H 950 3360 30  0000 C CNN
-F 2 "" H 950 3250 60  0000 C CNN
-F 3 "" H 950 3250 60  0000 C CNN
-	1    950  3250
+U 1 1 59619575
+P 4550 4400
+F 0 "#PWR021" H 4550 4490 20  0001 C CNN
+F 1 "+5V" H 4550 4490 30  0000 C CNN
+F 2 "" H 4550 4400 60  0001 C CNN
+F 3 "" H 4550 4400 60  0001 C CNN
+	1    4550 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  3250 950  3350
+	4550 4500 4550 4400
 Wire Wire Line
-	950  3350 1100 3350
+	8200 1050 8200 850 
+Wire Wire Line
+	7550 1000 8200 1000
+Connection ~ 8200 1000
+$Comp
+L +3.3V #PWR022
+U 1 1 596199FD
+P 10750 3250
+F 0 "#PWR022" H 10750 3210 30  0001 C CNN
+F 1 "+3.3V" H 10750 3360 30  0000 C CNN
+F 2 "" H 10750 3250 60  0001 C CNN
+F 3 "" H 10750 3250 60  0001 C CNN
+	1    10750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3350 10750 3350
+Wire Wire Line
+	10750 3350 10750 3250
+Wire Wire Line
+	800  4450 800  3100
+Wire Wire Line
+	800  3100 4900 3100
+Wire Wire Line
+	4900 3100 4900 4600
+NoConn ~ 1100 3350
+$Comp
+L +5V #PWR023
+U 1 1 5961AEFB
+P 2400 3300
+F 0 "#PWR023" H 2400 3390 20  0001 C CNN
+F 1 "+5V" H 2400 3390 30  0000 C CNN
+F 2 "" H 2400 3300 60  0000 C CNN
+F 3 "" H 2400 3300 60  0000 C CNN
+	1    2400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3350 2400 3350
+Wire Wire Line
+	2400 3350 2400 3300
 $EndSCHEMATC

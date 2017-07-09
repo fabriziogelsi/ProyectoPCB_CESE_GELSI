@@ -3,7 +3,7 @@
   (general
     (links 50)
     (no_connects 9)
-    (area 64.059999 74.854999 150.570001 135.965001)
+    (area 17.572141 15.774999 279.500001 167.165001)
     (thickness 1.6)
     (drawings 40)
     (tracks 167)
@@ -20,8 +20,8 @@
     (company "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA")
     (comment 1 https://github.com/ciaa/Ponchos/tree/master/modelos/doc)
     (comment 2 "Autores y Licencia del template (Diego Brengi - UNLaM)")
-    (comment 3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\"")
-    (comment 4 "CÓDIGO PONCHO:")
+    (comment 3 "Revisor: Alan Toris. Ver directorio \"doc\".")
+    (comment 4 "Autor del poncho (Fabrizio Gelsi).")
   )
 
   (layers
@@ -1937,8 +1937,8 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
-  (segment (start 71.12 81.28) (end 71.12 78.38) (width 0.381) (layer F.Cu) (net 1) (status 400000))
-  (segment (start 71.795 77.705) (end 97.5 77.705) (width 0.381) (layer F.Cu) (net 1) (tstamp 592FE92F) (status 800000))
+  (segment (start 71.12 81.28) (end 71.12 78.38) (width 0.381) (layer F.Cu) (net 1))
+  (segment (start 71.795 77.705) (end 97.5 77.705) (width 0.381) (layer F.Cu) (net 1) (tstamp 592FE92F))
   (segment (start 71.12 78.38) (end 71.795 77.705) (width 0.381) (layer F.Cu) (net 1) (tstamp 592FE92B))
   (segment (start 97.5 77.705) (end 99.676 77.705) (width 0.381) (layer F.Cu) (net 1))
   (segment (start 102.6135 80.6425) (end 104.14 80.6425) (width 0.381) (layer F.Cu) (net 1) (tstamp 592FE69C))
