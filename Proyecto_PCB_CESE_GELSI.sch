@@ -19,8 +19,8 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Revisor: Alan Toris. Ver directorio \"doc\""
-Comment4 "Autor del poncho (Fabrizio Gelsi). "
+Comment3 "Autor del poncho (Fabrizio Gelsi). Revisor: Alan Toris. Ver directorio \"doc\""
+Comment4 "Asignatura: Curso de diseño de circuitos impresos"
 $EndDescr
 $Comp
 L OSHWA #G2
@@ -535,7 +535,6 @@ $EndComp
 NoConn ~ 3600 5450
 NoConn ~ 4500 5450
 NoConn ~ 1100 5150
-NoConn ~ 1100 5250
 Wire Wire Line
 	3950 6550 4950 6550
 Connection ~ 4550 6550
@@ -788,7 +787,6 @@ NoConn ~ 1100 3850
 NoConn ~ 1100 3750
 NoConn ~ 1100 3650
 NoConn ~ 1100 3550
-NoConn ~ 1100 3450
 Wire Wire Line
 	5800 6300 5800 6850
 Wire Wire Line
@@ -902,4 +900,32 @@ Wire Wire Line
 	2300 3350 2400 3350
 Wire Wire Line
 	2400 3350 2400 3300
+$Comp
+L GND #PWR024
+U 1 1 596A4BCF
+P 950 3550
+F 0 "#PWR024" H 950 3550 30  0001 C CNN
+F 1 "GND" H 950 3480 30  0000 C CNN
+F 2 "" H 950 3550 60  0001 C CNN
+F 3 "" H 950 3550 60  0001 C CNN
+	1    950  3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3450 950  3450
+Wire Wire Line
+	950  3450 950  3550
+$Comp
+L GND #PWR025
+U 1 1 596A4DA5
+P 1100 5400
+F 0 "#PWR025" H 1100 5400 30  0001 C CNN
+F 1 "GND" H 1100 5330 30  0000 C CNN
+F 2 "" H 1100 5400 60  0001 C CNN
+F 3 "" H 1100 5400 60  0001 C CNN
+	1    1100 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5250 1100 5400
 $EndSCHEMATC
