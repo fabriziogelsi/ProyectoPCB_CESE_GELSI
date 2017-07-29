@@ -1,4 +1,4 @@
-update=sáb 27 may 2017 10:10:39 ART
+update=sáb 29 jul 2017 18:26:22 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,8 +24,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=libs
@@ -38,3 +36,6 @@ LibName5=libs/LOGIC-SN74LVC1G125DCKR_SC70-5_/LOGIC-SN74LVC1G125DCKR_SC70-5_
 LibName6=libs/kicad-library-master/library/switches
 LibName7=libs/libPonchos/Poncho_Esqueleto
 LibName8=libs/libModelos/Misc_Poncho_Grande
+LibName9=libs/ej2cese
+[general]
+version=1
